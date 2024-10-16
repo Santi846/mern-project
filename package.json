@@ -1,0 +1,29 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "Practice MERN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santi846/mern-project.git"
+  },
+  "keywords": [],
+  "author": "Santi846 <arochas846@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Santi846/mern-project/issues"
+  },
+  "homepage": "https://github.com/Santi846/mern-project#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
