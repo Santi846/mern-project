@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Santi846/mern-project#readme",
   "dependencies": {
     "express": "^4.21.1",
+    "mongoose": "^8.8.0",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
