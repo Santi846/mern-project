@@ -69,3 +69,23 @@ export const logout = (req, res) => {
     res.cookie('token', '', {expires : new Date(0)});
     return res.status(200).json("Sesión cerrada");
 };
+
+export const profile = async (req, res) => {
+    const userMatch = await userModel.findById(req.user.id);
+    console.log("yes", userMatch);
+    if(!userMatch) {
+        return res.status(400).json({messaje:"Usuario no encontrado"})
+    }
+    else{
+        
+        return res.json({
+            id: userMatch._id,
+            email:userMatch.email,
+            username: userMatch.username,
+            createdAt: userMatch.createdAt,
+            updatedAt: userMatch.createdAt
+        });
+        
+    }
+   
+};
