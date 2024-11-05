@@ -1,3 +1,2 @@
 # mern-project
-MERN
-Initial Template
+Backend Node Initial Template
