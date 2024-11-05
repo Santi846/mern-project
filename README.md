@@ -1,2 +1,3 @@
 # mern-project
-Practice MERN
+MERN
+Initial Template
