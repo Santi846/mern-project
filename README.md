@@ -1,2 +1,3 @@
 # mern-project
-Practice MERN
+
+Backend de Mas Por Menos desarrollado con Node.js
