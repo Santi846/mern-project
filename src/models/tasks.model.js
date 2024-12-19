@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import { Middleware } from "../middlewares/mainMiddleware.js";
-import userModel from "./user.model.js";
 
 const tasksSchema = new mongoose.Schema({
     title: {
@@ -16,7 +15,8 @@ const tasksSchema = new mongoose.Schema({
     },
     state:{
         type:String,
-        required:true
+        required:true,
+        default: "Todo"
     },
     user:{
         type: mongoose.Schema.Types.ObjectId,

@@ -41,13 +41,12 @@ export const getUniqueTask = async (req, res) => {
 
 export const createTask = async (req, res) => {
 
-    const {title, description, state} = req.body;
+    const {title, description} = req.body;
 
    try {
     const newTask = new tasksModel({
         title,
         description,
-        state,
         user: req.user.id
     });
 
