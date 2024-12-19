@@ -1,3 +1,3 @@
 # mern-project
 
-Backend de Mas Por Menos desarrollado con Node.js
+Backend Template Node.js
