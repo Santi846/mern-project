@@ -1,3 +1,3 @@
 # mern-project
 
-Backend Template Node.js
+Backend Node Initial Template
